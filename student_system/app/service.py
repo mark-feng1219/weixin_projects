@@ -96,6 +96,9 @@ class StudentDB:
             res["msg"] = str(err)
         return res
 
+@app.route('/hello')
+def hello_world():
+    return '欢迎使用微信云托管！'
 
 @app.route("/", methods=["GET", "POST"])
 def process():  # 这边曾经误写了process(self),结果报错了
@@ -126,11 +129,11 @@ def process():  # 这边曾经误写了process(self),结果报错了
     elif opt == "select":  # 查
         No = flask.request.values.get("No") if "No" in flask.request.values else ""
         res = db.selectRow(No)
-    elif opt == "":
+    elif opt == "return_all":
         res = db.returnALL()
     db.closeDB()
     return json.dumps(res)
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 80)))
