@@ -1,0 +1,23 @@
+<!--pages/search_school/search_school.wxml-->
+<!--pages/page_1/page_1.wxml-->
+<view id="title">中国大学排名</view>
+<view><text>\n</text></view>
+<view style="text-align: center;">
+<scroll-view class="table" scroll-x="true">
+<view class="tr">
+<view class="th_1">排名</view>
+<view class="th_2">学校名称</view>
+<view class="th_3">省市</view>
+<view class="th_4">类型</view>
+<view class="th_5">总分</view>
+</view>
+<view class="tr">
+<view class="td_1">{{rank}}</view>
+<view class="td_2">{{university}}</view>
+<view class="td_3">{{province}}</view>
+<view class="td_4">{{type}}</view>
+<view class="td_5">{{score}}</view>
+</view>
+</scroll-view>
+</view>
+<view><text>\n</text></view>

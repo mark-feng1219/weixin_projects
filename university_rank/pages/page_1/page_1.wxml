@@ -1,0 +1,99 @@
+<!--pages/page_1/page_1.wxml-->
+<view id="title">中国大学排名</view>
+<view><text>\n</text></view>
+
+<view class="search_input">
+<span class="search">
+<icon class="icon" type="search" data-postname="{{input_value}}" catchtap="jump_university"></icon>
+<input class="search_box" confirm-type="search" value="{{input_value}}" type="text" bindinput="getInputValue" bindconfirm="jump_university" data-postname="{{input_value}}" placeholder="请输入学校名称"></input>
+</span>
+</view>
+
+<view style="text-align: center;">
+<scroll-view class="table" scroll-x="true">
+<view class="tr">
+<view class="th_1">排名</view>
+<view class="th_2">学校名称</view>
+<view class="th_3">省市</view>
+<view class="th_4">类型</view>
+<view class="th_5">总分</view>
+</view>
+<view class="tr">
+<view class="td_1">1</view>
+<view class="td_2" bindtap="click_me" data-postname="清华大学">清华大学</view>
+<view class="td_3">北京</view>
+<view class="td_4">综合</view>
+<view class="td_5">852.5</view>
+</view>
+<view class="tr">
+<view class="td_1">2</view>
+<view class="td_2" bindtap="click_me" data-postname="北京大学">北京大学</view>
+<view class="td_3">北京</view>
+<view class="td_4">综合</view>
+<view class="td_5">746.7</view>
+</view>
+<view class="tr">
+<view class="td_1">3</view>
+<view class="td_2" bindtap="click_me" data-postname="浙江大学">浙江大学</view>
+<view class="td_3">浙江</view>
+<view class="td_4">综合</view>
+<view class="td_5">649.2</view>
+</view>
+<view class="tr">
+<view class="td_1">4</view>
+<view class="td_2" bindtap="click_me" data-postname="上海交通大学">上海交通大学</view>
+<view class="td_3">上海</view>
+<view class="td_4">综合</view>
+<view class="td_5">625.9</view>
+</view>
+<view class="tr">
+<view class="td_1">5</view>
+<view class="td_2" bindtap="click_me" data-postname="南京大学">南京大学</view>
+<view class="td_3">江苏</view>
+<view class="td_4">综合</view>
+<view class="td_5">566.1</view>
+</view>
+<view class="tr">
+<view class="td_1">6</view>
+<view class="td_2" bindtap="click_me" data-postname="复旦大学">复旦大学</view>
+<view class="td_3">上海</view>
+<view class="td_4">综合</view>
+<view class="td_5">556.7</view>
+</view>
+<view class="tr">
+<view class="td_1">7</view>
+<view class="td_2" bindtap="click_me" data-postname="中国科学技术大学">中国科学技术大学</view>
+<view class="td_3">安徽</view>
+<view class="td_4">理工</view>
+<view class="td_5">526.4</view>
+</view>
+<view class="tr">
+<view class="td_1">8</view>
+<view class="td_2" bindtap="click_me" data-postname="华中科技大学">华中科技大学</view>
+<view class="td_3">湖北</view>
+<view class="td_4">综合</view>
+<view class="td_5">497.7</view>
+</view>
+<view class="tr">
+<view class="td_1">9</view>
+<view class="td_2" bindtap="click_me" data-postname="武汉大学">武汉大学</view>
+<view class="td_3">湖北</view>
+<view class="td_4">综合</view>
+<view class="td_5">488.0</view>
+</view>
+<view class="tr">
+<view class="td_1">10</view>
+<view class="td_2" bindtap="click_me" data-postname="中山大学">中山大学</view>
+<view class="td_3">广东</view>
+<view class="td_4">综合</view>
+<view class="td_5">457.2</view>
+</view>
+</scroll-view>
+</view>
+<view><text>\n</text></view>
+
+<button class="next" size="mini" style="position: relative; left: 0rpx; top: 0rpx" bindtap="before">上一页</button>
+<button class="next" size="mini" style="position: relative; left: 52rpx; top: 0rpx">1</button>
+<button class="next" size="mini" style="position: relative; left: 88rpx; top: 0rpx" bindtap="come_2">2</button>
+<button class="next" size="mini" style="position: relative; left: 122rpx; top: 0rpx" bindtap="come_3">3</button>
+<button class="next" size="mini" style="position: relative; left: 175rpx; top: 0rpx" bindtap="after">下一页</button>

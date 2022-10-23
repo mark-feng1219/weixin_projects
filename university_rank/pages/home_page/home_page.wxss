@@ -1,0 +1,46 @@
+/* pages/home_page/home_page.wxss */
+.title{
+  left: 0rpx;
+  top: 110rpx;
+  width: 750rpx;
+  height: 95rpx;
+  line-height: 49.4rpx;
+  background-color: rgba(248, 248, 248, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 18px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.t1{
+  left: 150rpx;
+  top: 365px;
+  width: 750rpx;
+  height: 50px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 60rpx;
+  text-align: center;
+  font-family: SourceHanSerif-regular;
+}
+
+.t2{
+  left:150rpx;
+  top: 500rpx;
+  width: 750rpx;
+  height: 50px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 70rpx;
+  text-align: center;
+  font-family: SourceHanSerif-regular;
+}
+
+.t3{
+  left: 150rpx;
+  top: 522px;
+  width: 750rpx;
+  height: 73px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 60rpx;
+  text-align: center;
+  font-family: SourceHanSerif-regular;
+}

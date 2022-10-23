@@ -1,0 +1,13 @@
+/* pages/16/16.wxss */
+.txt{
+  text-indent: 2em;
+  position:absolute;
+  left: 50rpx;
+  top: 560rpx;
+  width: 650rpx;
+  height: 470px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: SourceHanSerif-regular;
+}

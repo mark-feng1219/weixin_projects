@@ -1,0 +1,15 @@
+<!--pages/home_page/home_page.wxml-->
+<!-- <view class='title'>
+   {{Title}}
+</view> -->
+<image src='../images/1.jpg' mode="widthFix"></image>
+<view class='t1'>
+  {{text1}}
+</view>
+<view class='t2'>
+  {{text2}}
+</view>
+<view class='t3'>
+  {{text3}}
+</view>
+<button type="primary" bindtap='onTapButton'>点此进入</button>

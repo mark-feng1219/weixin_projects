@@ -1,0 +1,4 @@
+<!--pages/15/15.wxml-->
+<image src='../images/15.jpg' mode="widthFix"></image>
+<view style="font-size: 20px;">学校简介</view>
+<view class='txt'>{{word1}}{{word2}}{{word3}}</view>

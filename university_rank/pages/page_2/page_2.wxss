@@ -1,0 +1,96 @@
+/* pages/page_2/page_2.wxss */
+
+#title{
+  text-align:center;
+  font-size: 56rpx;
+  font-family: cursive;
+  /* font-family: "宋体"; */
+}
+.search_input{
+  width: 45%;
+  height: 28px;
+  display: flex;
+  float: right;
+  line-height: 28px;
+  background: #f6f6f6;
+  border-radius: 30px;
+  font-size: 25px;
+}
+.search{
+  height: 28px;
+  line-height: 28px;
+  flex:1;
+  display: flex;
+  align-items: center;
+}
+.search .icon{
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  margin: 0 10px;
+}
+.search_box{
+  width: 60%;
+  font-size: 12px;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.tr{
+  width: 100%;
+  height: 28px;
+  display: flex;
+  font-size: 10px;
+  flex-direction: row;
+}
+
+.th_1,.th_2,.th_3,.th_4,.th_5,.td_1,.td_2,.td_3,.td_4,.td_5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;            /* 自动换行 */
+  text-align: center;         /* 文本居中 */
+  justify-content:center;     /* 主轴居中 */
+  align-items: center;        /* 交叉轴居中 */
+  border-top: 1px solid #dadada;      /* 单元格上线框 */
+  border-bottom: 1px solid #dadada;   /* 单元格下线框 */
+  border-left: 1px solid #dadada;     /* 单元格左线框 */
+  border-right: 1px solid #dadada;    /* 单元格右线框 */
+  /* border-radius: 10px; */
+}
+
+.th_1,.th_2,.th_3,.th_4,.th_5{
+  font-weight: 800;
+}
+
+.th_1,.td_1{
+  width: 12%;
+}
+
+.th_2,.td_2{
+  width: 28%;
+}
+
+.th_3,.td_3{
+  width: 22%;
+}
+
+.th_4,.td_4{
+  width: 18%;
+}
+
+.th_5,.td_5{
+  width: 20%;
+}
+
+.td_5{
+  font-size: 10px;
+  font-family: cursive;
+}
+
+.next{
+  font-weight: 100;
+  font-family: cursive;
+}

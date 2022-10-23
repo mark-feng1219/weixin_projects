@@ -1,0 +1,23 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.txt{
+  text-indent: 2em;
+  position:absolute;
+  left: 50rpx;
+  top: 600rpx;
+  width: 650rpx;
+  height: 470px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: SourceHanSerif-regular;
+}
